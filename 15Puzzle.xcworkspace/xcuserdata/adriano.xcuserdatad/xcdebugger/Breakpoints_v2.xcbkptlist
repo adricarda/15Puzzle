@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "15Puzzle/GameViewController.swift"
+            timestampString = "522098114.523184"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "moveAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "15Puzzle/GameViewController.swift"
+            timestampString = "522255747.180958"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "moveAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "15Puzzle/GameViewController.swift"
+            timestampString = "522658816.607655"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "370"
+            endingLineNumber = "370"
+            landmarkName = "createBlock(fromRow:FromColumn:withSize:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in _5Puzzle):__ObjC.UIImage.createBlock (fromRow : Swift.Int, FromColumn : Swift.Int, withSize : __C.CGSize) -&gt; Swift.Optional&lt;__ObjC.UIImage&gt;"
+                  moduleName = "15Puzzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antonio/Desktop/Lam%20/ProgLAM2017_0000718506/IOS/15Puzzle/15Puzzle/GameViewController.swift"
+                  timestampString = "522658885.939011"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "370"
+                  endingLineNumber = "370"
+                  offsetFromSymbolStart = "529">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in _5Puzzle):__ObjC.UIImage.createBlock (fromRow : Swift.Int, FromColumn : Swift.Int, withSize : __C.CGSize) -&gt; Swift.Optional&lt;__ObjC.UIImage&gt;"
+                  moduleName = "15Puzzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antonio/Desktop/Lam%20/ProgLAM2017_0000718506/IOS/15Puzzle/15Puzzle/GameViewController.swift"
+                  timestampString = "522658885.943357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "370"
+                  endingLineNumber = "370"
+                  offsetFromSymbolStart = "586">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

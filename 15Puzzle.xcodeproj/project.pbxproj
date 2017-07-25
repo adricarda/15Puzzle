@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B94961311EDF6D14000A8E1F /* button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B94961301EDF6D14000A8E1F /* button.mp3 */; };
+		B9842ACD1ED863E60091FB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842ACC1ED863E60091FB05 /* AppDelegate.swift */; };
+		B9842AD21ED863E60091FB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9842AD01ED863E60091FB05 /* Main.storyboard */; };
+		B9842AD41ED863E60091FB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9842AD31ED863E60091FB05 /* Assets.xcassets */; };
+		B9842AD71ED863E60091FB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9842AD51ED863E60091FB05 /* LaunchScreen.storyboard */; };
+		B9842ADF1ED864980091FB05 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842ADE1ED864980091FB05 /* SettingsTableViewController.swift */; };
+		B9842AE11ED864A30091FB05 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842AE01ED864A30091FB05 /* MasterViewController.swift */; };
+		B9842AE31ED864B10091FB05 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842AE21ED864B10091FB05 /* GameViewController.swift */; };
+		B9842AE71ED864FE0091FB05 /* foglia.png in Resources */ = {isa = PBXBuildFile; fileRef = B9842AE61ED864FE0091FB05 /* foglia.png */; };
+		B9842AEB1ED867C80091FB05 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842AEA1ED867C80091FB05 /* UserDefaultsManager.swift */; };
+		B9842AEF1ED8691D0091FB05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842AEE1ED8691D0091FB05 /* LoginViewController.swift */; };
+		B9842AF11ED869240091FB05 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842AF01ED869240091FB05 /* ResetPasswordViewController.swift */; };
+		B9842AF31ED869290091FB05 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9842AF21ED869290091FB05 /* SignUpViewController.swift */; };
+		B9A730621ED86C5600915551 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9A730611ED86C5600915551 /* GoogleService-Info.plist */; };
+		B9D14C6A1ED9A5E700DAE066 /* ViewControllerWithKeyboardFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D14C691ED9A5E700DAE066 /* ViewControllerWithKeyboardFunctions.swift */; };
+		B9E2D9971EE2C0A900511F09 /* batman.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E2D9961EE2C0A900511F09 /* batman.png */; };
+		B9E2D99B1EE2C2C000511F09 /* munch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9E2D99A1EE2C2C000511F09 /* munch.jpg */; };
+		E17EDB9EE1AB0952974EDF72 /* Pods_15Puzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C0922C08176D875CEAC0F3 /* Pods_15Puzzle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D74284E244B91416CC57E8F /* Pods-15Puzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-15Puzzle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-15Puzzle/Pods-15Puzzle.debug.xcconfig"; sourceTree = "<group>"; };
+		3666B3487BDA9282CEC79EF5 /* Pods-15Puzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-15Puzzle.release.xcconfig"; path = "Pods/Target Support Files/Pods-15Puzzle/Pods-15Puzzle.release.xcconfig"; sourceTree = "<group>"; };
+		B94961301EDF6D14000A8E1F /* button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button.mp3; sourceTree = "<group>"; };
+		B9842AC91ED863E60091FB05 /* 15Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 15Puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9842ACC1ED863E60091FB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9842AD11ED863E60091FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9842AD31ED863E60091FB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9842AD61ED863E60091FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9842AD81ED863E60091FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9842ADE1ED864980091FB05 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		B9842AE01ED864A30091FB05 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		B9842AE21ED864B10091FB05 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B9842AE61ED864FE0091FB05 /* foglia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foglia.png; sourceTree = "<group>"; };
+		B9842AEA1ED867C80091FB05 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		B9842AEE1ED8691D0091FB05 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B9842AF01ED869240091FB05 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		B9842AF21ED869290091FB05 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B9A730611ED86C5600915551 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B9D14C691ED9A5E700DAE066 /* ViewControllerWithKeyboardFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerWithKeyboardFunctions.swift; sourceTree = "<group>"; };
+		B9E2D9961EE2C0A900511F09 /* batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batman.png; sourceTree = "<group>"; };
+		B9E2D99A1EE2C2C000511F09 /* munch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munch.jpg; sourceTree = "<group>"; };
+		D8C0922C08176D875CEAC0F3 /* Pods_15Puzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_15Puzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9842AC61ED863E60091FB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17EDB9EE1AB0952974EDF72 /* Pods_15Puzzle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C708018996176D960538DA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D74284E244B91416CC57E8F /* Pods-15Puzzle.debug.xcconfig */,
+				3666B3487BDA9282CEC79EF5 /* Pods-15Puzzle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0A219483884860CE26BC3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C0922C08176D875CEAC0F3 /* Pods_15Puzzle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9842AC01ED863E60091FB05 = {
+			isa = PBXGroup;
+			children = (
+				B9842ACB1ED863E60091FB05 /* 15Puzzle */,
+				B9842ACA1ED863E60091FB05 /* Products */,
+				3C708018996176D960538DA4 /* Pods */,
+				A0A219483884860CE26BC3E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9842ACA1ED863E60091FB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9842AC91ED863E60091FB05 /* 15Puzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9842ACB1ED863E60091FB05 /* 15Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				B9842AD01ED863E60091FB05 /* Main.storyboard */,
+				B9D14C691ED9A5E700DAE066 /* ViewControllerWithKeyboardFunctions.swift */,
+				B9842AEE1ED8691D0091FB05 /* LoginViewController.swift */,
+				B9842AF01ED869240091FB05 /* ResetPasswordViewController.swift */,
+				B9842AF21ED869290091FB05 /* SignUpViewController.swift */,
+				B9842AEA1ED867C80091FB05 /* UserDefaultsManager.swift */,
+				B9842ACC1ED863E60091FB05 /* AppDelegate.swift */,
+				B9842ADE1ED864980091FB05 /* SettingsTableViewController.swift */,
+				B9842AE01ED864A30091FB05 /* MasterViewController.swift */,
+				B9842AE21ED864B10091FB05 /* GameViewController.swift */,
+				B9E2D9961EE2C0A900511F09 /* batman.png */,
+				B9E2D99A1EE2C2C000511F09 /* munch.jpg */,
+				B9842AE61ED864FE0091FB05 /* foglia.png */,
+				B9842AD31ED863E60091FB05 /* Assets.xcassets */,
+				B94961301EDF6D14000A8E1F /* button.mp3 */,
+				B9842AD51ED863E60091FB05 /* LaunchScreen.storyboard */,
+				B9A730611ED86C5600915551 /* GoogleService-Info.plist */,
+				B9842AD81ED863E60091FB05 /* Info.plist */,
+			);
+			path = 15Puzzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9842AC81ED863E60091FB05 /* 15Puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9842ADB1ED863E60091FB05 /* Build configuration list for PBXNativeTarget "15Puzzle" */;
+			buildPhases = (
+				49724DE838DAB07BAA741239 /* [CP] Check Pods Manifest.lock */,
+				B9842AC51ED863E60091FB05 /* Sources */,
+				B9842AC61ED863E60091FB05 /* Frameworks */,
+				B9842AC71ED863E60091FB05 /* Resources */,
+				72031D626BE23ABDC9AD2F36 /* [CP] Embed Pods Frameworks */,
+				96F3FCFEA481D4598DC88811 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 15Puzzle;
+			productName = 15Puzzle;
+			productReference = B9842AC91ED863E60091FB05 /* 15Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9842AC11ED863E60091FB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = it.unibo.cs.lam2017.adrianoCardace.spacca15;
+				TargetAttributes = {
+					B9842AC81ED863E60091FB05 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4JMFWZR7S8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B9842AC41ED863E60091FB05 /* Build configuration list for PBXProject "15Puzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9842AC01ED863E60091FB05;
+			productRefGroup = B9842ACA1ED863E60091FB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9842AC81ED863E60091FB05 /* 15Puzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9842AC71ED863E60091FB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E2D9971EE2C0A900511F09 /* batman.png in Resources */,
+				B9842AD71ED863E60091FB05 /* LaunchScreen.storyboard in Resources */,
+				B9842AE71ED864FE0091FB05 /* foglia.png in Resources */,
+				B9E2D99B1EE2C2C000511F09 /* munch.jpg in Resources */,
+				B94961311EDF6D14000A8E1F /* button.mp3 in Resources */,
+				B9842AD41ED863E60091FB05 /* Assets.xcassets in Resources */,
+				B9842AD21ED863E60091FB05 /* Main.storyboard in Resources */,
+				B9A730621ED86C5600915551 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49724DE838DAB07BAA741239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72031D626BE23ABDC9AD2F36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-15Puzzle/Pods-15Puzzle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F3FCFEA481D4598DC88811 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-15Puzzle/Pods-15Puzzle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9842AC51ED863E60091FB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D14C6A1ED9A5E700DAE066 /* ViewControllerWithKeyboardFunctions.swift in Sources */,
+				B9842AF11ED869240091FB05 /* ResetPasswordViewController.swift in Sources */,
+				B9842AE31ED864B10091FB05 /* GameViewController.swift in Sources */,
+				B9842AEB1ED867C80091FB05 /* UserDefaultsManager.swift in Sources */,
+				B9842AF31ED869290091FB05 /* SignUpViewController.swift in Sources */,
+				B9842AE11ED864A30091FB05 /* MasterViewController.swift in Sources */,
+				B9842AEF1ED8691D0091FB05 /* LoginViewController.swift in Sources */,
+				B9842ACD1ED863E60091FB05 /* AppDelegate.swift in Sources */,
+				B9842ADF1ED864980091FB05 /* SettingsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9842AD01ED863E60091FB05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9842AD11ED863E60091FB05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9842AD51ED863E60091FB05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9842AD61ED863E60091FB05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9842AD91ED863E60091FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9842ADA1ED863E60091FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9842ADC1ED863E60091FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D74284E244B91416CC57E8F /* Pods-15Puzzle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4JMFWZR7S8;
+				INFOPLIST_FILE = 15Puzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Adriano.Cardace.Spacca15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9842ADD1ED863E60091FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3666B3487BDA9282CEC79EF5 /* Pods-15Puzzle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4JMFWZR7S8;
+				INFOPLIST_FILE = 15Puzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Adriano.Cardace.Spacca15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9842AC41ED863E60091FB05 /* Build configuration list for PBXProject "15Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9842AD91ED863E60091FB05 /* Debug */,
+				B9842ADA1ED863E60091FB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9842ADB1ED863E60091FB05 /* Build configuration list for PBXNativeTarget "15Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9842ADC1ED863E60091FB05 /* Debug */,
+				B9842ADD1ED863E60091FB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9842AC11ED863E60091FB05 /* Project object */;
+}
